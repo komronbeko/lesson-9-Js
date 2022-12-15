@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Alata;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: violet;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 200px 20px;
+}
+.base{
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+
+}
+
+.left{
+    color: white;
+}
+h1{
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.left p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.Fname-error{
+    display: none;
+}
+.Fname-showError{
+    display: block;
+}
+.Lname-error{
+    display: none;
+}
+.Lname-showError{
+    display: block;
+}.mail-error{
+    display: none;
+}
+.mail-showError{
+    display: block;
+}.pswrd-error{
+    display: none;
+}
+.pswrd-showError{
+    display: block;
+}
